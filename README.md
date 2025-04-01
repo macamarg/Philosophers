@@ -38,12 +38,13 @@ This project solves the classic Dining Philosophers problem using thread synchro
 
 - impose a sleeping time
 - assimetric assign of forks
-- avoid spin lock for sleeping time
+- avoid spinlock for sleeping time
+- used a spinlock to wait for all threads to get ready
 
 ## 🖥️ Usage
 
 ```
-./philo_bonus <number_of_philos> <time_to_die> <time_to_eat> <time_to_sleep> [meal_limit]
+./philo <number_of_philos> <time_to_die> <time_to_eat> <time_to_sleep> [meal_limit]
 ```
 
 ## 📚 Resources And Usefull Links
